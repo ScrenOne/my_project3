@@ -8,7 +8,12 @@ def uppercase_string(input_string):
     Returns:
         str: The input string converted to uppercase.
     """
+<<<<<<< HEAD
     # This function converts the input string to uppercase using the built-in str.upper() method.
     return input_string.upper()
 
 
+=======
+    return input_string.upper()
+
+>>>>>>> develop
