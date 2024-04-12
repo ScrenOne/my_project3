@@ -1,12 +1,14 @@
-def capitalize_first_letters(input_string):
+def uppercase_string(input_string):
     """
-    Capitalizes the first letter of each word in the input string.
+    Convert the input string to uppercase.
 
     Args:
-        input_string (str): The string to be processed.
+        input_string (str): The string to be converted to uppercase.
 
     Returns:
-        str: The input string with the first letter of each word capitalized.
+        str: The input string converted to uppercase.
     """
-    return ' '.join(word.capitalize() for word in input_string.split())
+    # This function converts the input string to uppercase using the built-in str.upper() method.
+    return input_string.upper()
+
 
